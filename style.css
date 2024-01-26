@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Full viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#btn{
+    height: 50px;
+    width: 200px;
+
+    background-color: #030637;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: white;
+}
+#btn:hover{
+    transform: translateY(-1.5px) scaleX(1.03);
+}
